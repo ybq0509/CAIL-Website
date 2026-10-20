@@ -40,9 +40,16 @@
 ## 活动
 
 - [活动](events.html) — `events.html`
-- [LEXFLOW 2027：面向人机协同法律推理的智能体工作流工作坊](lexflow-2027.html) — `lexflow-2027.html`
-- [法律科技学术与实践研讨会](legal-technology-seminar-2026.html) — `legal-technology-seminar-2026.html`
 - [ICAIL 2026 可信法律推理工作坊](trustworthy-legal-reasoning-2026.html) — `trustworthy-legal-reasoning-2026.html`
+- [LexiHK 与广东司法 AI 团队探索跨境法律科技合作](guangdong-hong-kong-legal-ai.html) — `guangdong-hong-kong-legal-ai.html`
+- [Yikang Li探讨 AGI 时代的量化交易](quantitative-trading-agi-seminar.html) — `quantitative-trading-agi-seminar.html`
+
+## 新闻
+
+- [LEXFLOW 2027 征稿：面向人机协同法律推理的智能体工作流](lexflow-2027.html) — `lexflow-2027.html`
+- [实践中的可信法律智能：研究人员与实务界人士在香港科大探讨法律 AI](legal-technology-seminar-2026.html) — `legal-technology-seminar-2026.html`
+- [China Daily 评论关注 LexiHK 与香港法律服务中的 AI 应用](lexihk-china-daily.html) — `lexihk-china-daily.html`
+- [LexiHK 获第 50 届日内瓦国际发明展铜奖](lexihk-geneva-award.html) — `lexihk-geneva-award.html`
 
 ## 研究成果
 

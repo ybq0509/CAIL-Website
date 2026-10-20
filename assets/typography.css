@@ -1,0 +1,31 @@
+@font-face{font-family:'CAIL Muli';src:url('fonts/Muli-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'CAIL Muli';src:url('fonts/Muli-Italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'CAIL Muli';src:url('fonts/Muli-Light.ttf') format('truetype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'CAIL Muli';src:url('fonts/Muli-LightItalic.ttf') format('truetype');font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:'CAIL Futura';src:url('fonts/Futura-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'CAIL Futura';src:url('fonts/Futura-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+:root{--heading-font:'CAIL Futura','Heiti SC','Heiti TC','Microsoft JhengHei','Microsoft YaHei',sans-serif}
+body,input,button,select,textarea{font-family:'CAIL Muli','Heiti SC','Heiti TC','Microsoft JhengHei','Microsoft YaHei',sans-serif}
+html[lang=en] h1,html[lang=en] h2{font-family:var(--heading-font)!important;font-weight:500!important}
+.university span[lang=en],html[lang=en] .footer-university{font-family:'CAIL Futura',sans-serif!important;font-weight:500!important}
+html[lang=zh-CN] body,html[lang=zh-CN] :is(p,li,dd,dt,input,button,select,textarea,h1,h2,h3,h4){font-family:'CAIL Muli','Heiti SC','Source Han Sans SC','Microsoft YaHei','PingFang SC',sans-serif!important}
+html[lang=zh-Hant] body,html[lang=zh-Hant] :is(p,li,dd,dt,input,button,select,textarea,h1,h2,h3,h4){font-family:'CAIL Muli','Heiti TC','Microsoft JhengHei','PingFang TC',sans-serif!important}
+/* Preserve the established decorative italic serif. */
+html[lang=en] .hero-title em,html[lang=en] .hero-serif,html[lang=en] .research-theme{font-family:Georgia,'Times New Roman',serif!important;font-style:italic!important;font-weight:400!important}
+.news-article-figure img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.news-article-figure{margin:32px 0}
+.news-article-figure.is-poster{max-width:640px;margin-left:auto;margin-right:auto}
+.footer-contact dd{overflow-wrap:anywhere}
+
+/* Mixed-case editorial headings use Muli; institutional lettering stays Futura. */
+html[lang=en] :is(h1,h2,h3,h4):not(.hero-title) {
+ font-family:'CAIL Muli','Heiti SC','Heiti TC',sans-serif!important;
+ font-weight:600!important;
+ letter-spacing:.1px;
+}
+
+/* Use matching heading weight and spacing in both Chinese versions. */
+html[lang|=zh] :is(h1,h2,h3,h4):not(.hero-title){font-weight:600!important;letter-spacing:.1px}
+
+/* Homepage title: Muli with the existing serif emphasis on “and Law”. */
+html[lang=en] .hero-title{font-family:'CAIL Muli',sans-serif!important;font-weight:600!important}

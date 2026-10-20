@@ -8,15 +8,15 @@ html:lang(zh) .hero-title>span,html:lang(zh) .hero-title em{display:inline;margi
 .home-news-card .home-news-image{aspect-ratio:16/10;width:100%}
 .research-band .research-heading-left{display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:24px}
 .research-band .research-heading-left h2{margin:0}
-.research-band .research-all-link{margin-left:auto;white-space:nowrap;color:var(--brand-gold);font-family:Arial,sans-serif;font-size:14px;border:0}
-.event-summary,.home-events-compact .event-summary{font-family:Arial,'Heiti SC','Heiti TC',sans-serif;font-size:14px;line-height:1.7;margin:12px 0 0;color:var(--muted)}
+.research-band .research-all-link{margin-left:auto;white-space:nowrap;color:var(--brand-gold);font-family:'CAIL Muli',sans-serif;font-size:14px;border:0}
+.event-summary,.home-events-compact .event-summary{font-family:'CAIL Muli','Heiti SC','Heiti TC',sans-serif;font-size:14px;line-height:1.7;margin:12px 0 0;color:var(--muted)}
 body .home-page .publication,body .publication{grid-template-columns:160px minmax(0,1fr) 30px!important;gap:32px;align-items:start}
 body .publication>.pub-figure{grid-column:1!important;grid-row:1!important}
 body .publication>.publication-copy{grid-column:2!important;grid-row:1!important}
 body .publication>.round-link{grid-column:3!important;grid-row:1!important}
-body .publication .pub-year{font-family:Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5;margin:0 0 6px;color:var(--muted)}
+body .publication .pub-year{font-family:'CAIL Muli',sans-serif;font-size:12px;font-weight:400;line-height:1.5;margin:0 0 6px;color:var(--muted)}
 body .publication .meta{font-size:14px;line-height:1.6;margin-bottom:8px}
-body .publication h3{font-family:Arial,'Heiti SC','Heiti TC',sans-serif;font-size:18px!important;line-height:1.5;font-weight:600;margin:0 0 8px;letter-spacing:0;text-wrap:initial}
+body .publication h3{font-family:'CAIL Muli','Heiti SC','Heiti TC',sans-serif;font-size:18px!important;line-height:1.5;font-weight:600;margin:0 0 8px;letter-spacing:0;text-wrap:initial}
 body .publication .authors{font-size:14px;font-style:italic;line-height:1.6;margin:0;font-weight:400}
 .page-title-search{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,440px);gap:24px;align-items:center}
 .page-title-search h1{margin:0}
@@ -37,13 +37,13 @@ body .publication .meta{color:var(--accent-strong)}
 @media(max-width:700px){body .publication>.pub-figure.image-placeholder{aspect-ratio:16/10;height:auto;min-height:140px}}
 
 /* Decorative institutional subtitle above the homepage title. */
-.home-page .hero-eyebrow{display:flex;align-items:center;gap:18px;margin:0 0 30px;font-family:Arial,'Heiti SC','Heiti TC',sans-serif;font-size:12px;font-weight:600;line-height:1.6;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-strong)}
+.home-page .hero-eyebrow{display:flex;align-items:center;gap:18px;margin:0 0 30px;font-family:'CAIL Muli','Heiti SC','Heiti TC',sans-serif;font-size:12px;font-weight:600;line-height:1.6;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-strong)}
 .home-page .hero-eyebrow:before{content:'';display:block;flex:0 0 36px;height:2px;background:var(--brand-gold,var(--accent))}
 .immersive-home .hero-eyebrow{color:#e0cdab}
 html:lang(zh) .home-page .hero-eyebrow{letter-spacing:.14em}
 @media(max-width:600px){.home-page .hero-eyebrow{font-size:12px;gap:12px;letter-spacing:.16em;margin-bottom:22px}.home-page .hero-eyebrow:before{flex-basis:26px}}
 
-.home-page .hero-slogan{max-width:640px;margin:22px 0 0;padding-top:22px;border-top:1px solid var(--line);font-family:Arial,'Heiti SC','Heiti TC',sans-serif;font-size:20px;font-weight:400;line-height:1.5;letter-spacing:0;color:var(--muted)}
+.home-page .hero-slogan{max-width:640px;margin:22px 0 0;padding-top:22px;border-top:1px solid var(--line);font-family:'CAIL Muli','Heiti SC','Heiti TC',sans-serif;font-size:20px;font-weight:400;line-height:1.5;letter-spacing:0;color:var(--muted)}
 .immersive-home .hero-slogan{border-color:rgba(255,255,255,.3);color:#edf0f4}
 @media(max-width:600px){.home-page .hero-slogan{font-size:16px;margin-top:18px;padding-top:18px}}
 
@@ -64,7 +64,7 @@ body .publication>.pub-figure img{display:block;width:100%;height:auto;object-fi
 .director-info h3{margin:0 0 12px}
 .research-team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 28px}
 .team-portrait{aspect-ratio:4/5;width:100%;max-width:180px;margin-bottom:16px}
-.research-team-member h3,.editorial-preview h3{font-family:Arial,'Heiti SC','Heiti TC',sans-serif;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 8px}
+.research-team-member h3,.editorial-preview h3{font-family:'CAIL Muli','Heiti SC','Heiti TC',sans-serif;font-size:16px;font-weight:600;line-height:1.5;margin:0 0 8px}
 .research-team-member p{font-size:14px;line-height:1.6;margin:0 0 4px}
 .research-team-member .team-interests{font-size:12px;color:var(--muted)}
 .editorial-preview-list{display:grid;gap:28px}
@@ -341,4 +341,11 @@ body .publication .publication-copy > .pub-figure img {
 #public-outputs > .text-link { display:flex; width:fit-content; margin:20px 0 0; }
 @media(max-width:700px) {
  #projects > .content-project { padding:24px 0; gap:24px; }
+}
+
+/* Let author lists use the full publication text column. */
+body .publication .publication-copy > .authors {
+ width:100%;
+ max-width:none;
+ text-wrap:wrap;
 }
