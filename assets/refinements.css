@@ -431,3 +431,11 @@ footer .wrap > .media-compact{margin:0 0 16px;padding:0}
 #programmes .editorial-preview:last-child{border-bottom:0}
 #programmes .editorial-preview h3,#programmes .editorial-preview>p:not(.status){width:100%;max-width:none;margin:0}
 #programmes .editorial-preview .status{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:72px;max-width:none;padding:6px 14px;margin:0;text-align:center}
+
+/* Captions belong to their figures rather than the article body. */
+.event-report .news-article-figure figcaption,
+.event-report .news-figure-caption{
+ display:block;width:100%;max-width:none;margin:12px 0 0;
+ text-align:center;font-size:14px!important;line-height:1.6;
+ color:#707780;font-weight:400!important;letter-spacing:0;
+}

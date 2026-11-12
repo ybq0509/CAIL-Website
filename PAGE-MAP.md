@@ -46,6 +46,7 @@
 
 ## 新闻
 
+- [LexiHK 首次亮相香港法律周 2026，正式入选律政司指定法律科技服务供应商](lexihk-hong-kong-legal-week-2026.html) — `lexihk-hong-kong-legal-week-2026.html`
 - [LEXFLOW 2027 征稿：面向人机协同法律推理的智能体工作流](lexflow-2027.html) — `lexflow-2027.html`
 - [实践中的可信法律智能：研究人员与实务界人士在香港科大探讨法律 AI](legal-technology-seminar-2026.html) — `legal-technology-seminar-2026.html`
 - [China Daily 评论关注 LexiHK 与香港法律服务中的 AI 应用](lexihk-china-daily.html) — `lexihk-china-daily.html`
