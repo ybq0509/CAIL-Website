@@ -349,3 +349,85 @@ body .publication .publication-copy > .authors {
  max-width:none;
  text-wrap:wrap;
 }
+
+.media-platforms{margin-top:32px;padding-top:24px;border-top:1px solid var(--line)}
+.media-platforms h3{font-size:20px;margin-bottom:20px}
+.media-links{display:flex;flex-wrap:wrap;gap:20px 28px;align-items:flex-start}
+.media-links a,.media-links summary{display:flex;align-items:center;gap:10px;font-size:14px;cursor:pointer}
+.media-links img{width:24px;height:24px;object-fit:contain}
+.media-links .wechat-qr{width:200px;height:auto;margin-top:16px;background:white;padding:8px}
+footer .media-links a img,footer .media-links summary img{filter:brightness(0) invert(1)}
+footer .media-platforms h3{color:inherit}
+.center-publication{display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px;align-items:start}
+.center-publication img{width:240px;height:auto}
+@media(max-width:600px){.center-publication{grid-template-columns:1fr;gap:24px}}
+
+footer .media-compact{margin:18px 0 22px;padding:0;border:0}
+.media-compact h3{display:none}
+.media-compact .media-links{gap:10px}
+.media-compact .media-links a,.media-compact .media-links summary{width:36px;height:36px;display:flex;justify-content:center;align-items:center;border-radius:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2)}
+.media-compact .media-links a:hover,.media-compact .media-links summary:hover{background:rgba(255,255,255,.24)}
+.media-compact .media-links a img,.media-compact .media-links summary img{width:20px;height:20px}
+.media-compact .media-links a span,.media-compact .media-links summary span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.media-compact .wechat-media{position:relative}
+.media-compact .wechat-qr{position:absolute;bottom:44px;left:0;z-index:20;max-width:none;border-radius:8px}
+footer .media-platforms{border-color:rgba(255,255,255,.2)}
+
+.wechat-label{display:flex;align-items:center;gap:10px;font-size:14px}
+.media-links .wechat-media{flex-basis:100%;margin-top:8px}
+.media-links .wechat-qr{position:static;width:180px;max-width:100%;height:auto;margin-top:12px;filter:none}
+.media-compact .wechat-label img{filter:brightness(0) invert(1);width:20px;height:20px}
+.media-compact .wechat-label{font-size:12px}
+.media-compact .wechat-qr{width:120px;margin-top:8px}
+#media-platforms>.media-platforms{border:0;padding-top:0;margin-top:0}
+
+/* Footer platforms sit below the university name and share a bottom edge. */
+footer .media-compact .media-links{align-items:flex-end;gap:12px}
+footer .media-compact .wechat-media{flex-basis:auto;margin-top:0;margin-left:4px}
+footer .media-compact .wechat-label{margin-bottom:8px}
+footer .media-compact .wechat-qr{margin-top:0}
+
+/* Full platform panels: social links on the left, official account on the right. */
+.media-platforms:not(.media-compact) .media-links{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:32px;align-items:start}
+.media-social-links{display:flex;flex-wrap:wrap;gap:20px 28px;align-items:center}
+.media-platforms:not(.media-compact) .media-social-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.media-platforms:not(.media-compact) .wechat-media{margin:0}
+.media-platform-name{line-height:1.5}
+footer .media-compact .media-social-links{gap:12px;align-items:flex-end}
+@media(max-width:480px){.media-platforms:not(.media-compact) .media-links{grid-template-columns:minmax(0,1fr) 120px;gap:20px}.media-platforms:not(.media-compact) .media-social-links{grid-template-columns:1fr}.media-platforms:not(.media-compact) .wechat-qr{width:120px}}
+
+.media-platforms:not(.media-compact) .media-links{grid-template-columns:minmax(0,1fr) 120px}
+.media-platforms:not(.media-compact) .wechat-qr{width:120px}
+
+/* Shared solid icon tiles across platform panels and the footer. */
+.media-icon-tile{display:flex;align-items:center;justify-content:center;width:36px;height:36px;flex:0 0 36px;border-radius:8px;background:#e8e5dc;border:0}
+.media-links .media-icon-tile img{width:20px;height:20px;object-fit:contain}
+footer .media-compact .media-links a{border:0;background:transparent}
+footer .media-icon-tile{background:#294364}
+footer .media-compact .media-links a:hover{background:transparent}
+footer .media-compact .media-links a:hover .media-icon-tile{background:#3a5576}
+
+/* Compact official account block, aligned with two rows of platform links. */
+.media-platforms:not(.media-compact) .media-links{grid-template-columns:minmax(0,1fr) 96px}
+.media-platforms:not(.media-compact) .wechat-label{font-size:14px;line-height:20px;gap:6px}
+.media-platforms:not(.media-compact) .wechat-label img{width:18px;height:18px;background:none;border:0;border-radius:0}
+.media-platforms:not(.media-compact) .wechat-qr{width:72px;height:auto;padding:0;margin-top:8px;border-radius:0}
+
+/* Place footer social icons immediately above the copyright divider. */
+footer .footer-top{padding-bottom:24px}
+footer .wrap > .media-compact{margin:0 0 16px;padding:0}
+
+/* Homepage events use the same full-width card row as news. */
+.home-page .home-events-compact{display:block}
+.home-page .home-events-compact>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:32px}
+.home-page .home-events-compact>div:first-child h2{margin:0}
+.home-page .home-events-compact>div:first-child .text-link{margin:0}
+.home-page .home-event-list{width:100%;min-width:0}
+.home-page .home-event-list .content-news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+@media(max-width:700px){.home-page .home-event-list .content-news-grid{grid-template-columns:1fr}.home-page .home-events-compact>div:first-child{gap:16px}}
+
+/* Research programme titles and summaries share the full content width. */
+#programmes .editorial-preview{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:24px 0;border-bottom:1px solid var(--line)}
+#programmes .editorial-preview:last-child{border-bottom:0}
+#programmes .editorial-preview h3,#programmes .editorial-preview>p:not(.status){width:100%;max-width:none;margin:0}
+#programmes .editorial-preview .status{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:72px;max-width:none;padding:6px 14px;margin:0;text-align:center}
