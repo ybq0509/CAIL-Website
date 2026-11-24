@@ -1,0 +1,10 @@
+# Add to the existing HTTPS server block of your authentication domain.
+# Keep the original request path when proxying; do not append a slash to proxy_pass.
+location /cail-cms-auth/ {
+    proxy_pass http://127.0.0.1:8787;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto https;
+    proxy_http_version 1.1;
+    proxy_read_timeout 40s;
+    add_header Cache-Control "no-store" always;
+}

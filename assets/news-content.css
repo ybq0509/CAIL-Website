@@ -1,0 +1,7 @@
+.event-report [data-news-language] { min-width: 0; }
+.event-report [data-news-language] p { overflow-wrap: anywhere; }
+.event-report [data-news-language] img { max-width: 100%; height: auto; }
+.event-report [data-news-language] table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+.event-report [data-news-language] td, .event-report [data-news-language] th { border: 1px solid #ddd; padding: .65rem; }
+.event-report [data-news-language] blockquote { border-left: 3px solid #a59261; padding-left: 1.25rem; margin-left: 0; }
+.event-report-meta { flex-wrap: wrap; }

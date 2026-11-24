@@ -1,0 +1,25 @@
+{
+  "name": "cail-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --port=8767",
+    "cms:local": "node scripts/local-cms.mjs",
+    "dev:cms": "CAIL_LOCAL_CMS=1 node scripts/dev.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "npm test && npm run build && node scripts/check-site.mjs",
+    "auth:test": "node --test test/auth.test.mjs"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "cheerio": "1.2.0",
+    "decap-server": "3.11.6",
+    "dompurify": "3.5.0",
+    "markdown-it": "14.1.0",
+    "sanitize-html": "2.18.2",
+    "sharp": "0.35.5"
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>内容管理 | CAIL · HKUST</title><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="admin.css"></head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./"><img src="/assets/logos/figma-20261019/header-color.svg" alt="HKUST CAIL"></a>
+    <p class="eyebrow">CAIL CONTENT STUDIO</p><h1>内容管理</h1>
+    <nav aria-label="管理导航"><a class="active" href="./">新闻与活动</a><a data-editor="workflow" href="editor.html#/workflow">草稿与审核</a><a data-editor="settings" href="editor.html#/collections/settings/entries/homepage">首页显示设置</a><a href="setup.html">使用与部署说明</a></nav>
+    <a class="site-link" href="/" target="_blank" rel="noopener">打开网站</a>
+    <p class="sidebar-note">一次编辑，同步首页、列表、详情与全站搜索。</p>
+  </aside>
+  <main class="workspace">
+    <header class="topbar"><span>HKUST · Center for Artificial Intelligence for Law</span><span id="mode-badge" class="badge">正在连接…</span></header>
+    <div class="page-heading"><div><p class="eyebrow">EDITORIAL WORKSPACE</p><h2>新闻与活动</h2><p>管理中心动态，准备下一篇报道。</p></div><a id="create" class="button primary" href="editor.html#/collections/news/new">新增文章</a></div>
+    <div id="connection" class="notice" role="status">正在检查本地或线上编辑连接…</div>
+    <section class="stats" aria-label="内容概况"><div><span>已发布</span><strong id="published-count">—</strong></div><div><span>首页推荐候选</span><strong id="featured-count">—</strong></div><div><span>日期待核对</span><strong id="review-count">—</strong></div><div><span>已归档</span><strong id="archive-count">—</strong></div></section>
+    <section class="content-panel"><div class="panel-head"><h3>内容库</h3><span id="result-count"></span></div><div class="filters"><label class="search-label"><span>搜索标题</span><input id="search" type="search" placeholder="搜索英文、简体或繁体标题…"></label><label><span>栏目</span><select id="section"><option value="">全部栏目</option><option value="news">新闻</option><option value="event">活动</option></select></label><label><span>显示状态</span><select id="visibility"><option value="">全部状态</option><option value="published">已发布</option><option value="archived">已归档</option></select></label></div>
+    <div class="table-wrap"><table><thead><tr><th scope="col">文章</th><th scope="col">栏目</th><th scope="col">发布日期</th><th scope="col">状态</th><th scope="col">操作</th></tr></thead><tbody id="articles"></tbody></table><p id="empty" hidden>没有匹配的文章。试试其他关键词或筛选条件。</p></div></section>
+    <section class="deployment"><div><h3>发布状态</h3><p id="deployment-state">正在读取站点版本…</p><a id="deployment-link" target="_blank" rel="noopener" hidden>查看部署记录</a></div><button id="refresh" class="button" type="button">刷新状态</button></section>
+    <p class="footnote">这里显示当前站点已收录的内容。尚未发布的稿件请在“草稿与审核”中查看；保存草稿与正式上线是不同的步骤。</p>
+  </main><script src="dashboard.js" defer></script>
+</body></html>
